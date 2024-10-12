@@ -1,5 +1,5 @@
 import {join} from "path";
-import {readFile} from "fs/promises";
+import {readFile} from "node:fs/promises";
 
 const dirname = import.meta.dirname
 const filepath = join(dirname, "files", "fileToRead.txt")
